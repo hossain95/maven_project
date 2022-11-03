@@ -27,4 +27,8 @@ public class TestController {
         userInfo.setUserName("hossian");
         return userInfo;
     }
+    @GetMapping("/test")
+    public String test(){
+        return "This is a string";
+    }
 }
